@@ -212,4 +212,74 @@ input#scambi:checked ~ .scambi{
     background-color: rgb(182, 40, 40);
  }
  
+.contenitorecheckbox {
+    width: 98%;
+    box-sizing: border-box;
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
 
+.contenitorecheckbox div {
+    box-sizing: border-box;
+    padding: 3px;
+    color: white;
+    border: 1px solid red;
+    margin: 5px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    width: 45%;
+    height: 40px;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.contenitorecheckbox div label {
+    font-family: Montserrat;
+}
+
+/* Layout Regole */
+
+.contenitoreregole {
+    box-sizing: border-box;
+    width: 98%;
+    margin: 20px 5px;
+    padding: 0px 10px;
+}
+
+.contenitoreregole div{
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contenitoreregole div ul{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px;
+    list-style-type: upper-roman;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.contenitoreregole div ul li{
+    margin: 10px;
+}
+
+.regolamento {
+    color: white;
+    margin: 30px 0;
+}
