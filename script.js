@@ -18,6 +18,8 @@
         const table9 = document.getElementById('squadraTable9');
         const checkbox10 = document.getElementById('check10');
         const table10 = document.getElementById('squadraTable10');
+        const nascondi = document.getElementById("nascondi");
+        const contenitorecheckbox = document.getElementById("contenitorecheckbox")
 
         checkbox1.addEventListener('change', function() {
             if (checkbox1.checked) {
